@@ -1,0 +1,201 @@
+*{ 
+    font-family: 'Mulish';
+}
+header{
+  
+    background: #FFF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.li-1 {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.head-1{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 20px;
+}
+.banner-h1{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+
+}
+.banner-contant{  
+
+    width: 1170px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png) ;
+border: 16PX;
+margin:135px 146px ;
+
+}
+.banner-1stp{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px;
+    align-items: center;
+}
+div >ul{
+    display: flex;
+    align-items: center;}
+div li{
+    list-style: none;
+    margin-right: 30px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-div1{
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin: 104px;
+}
+div li input{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+div li button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+/*responsive media quaries*/
+@media screen and (max-width: 590px) {
+    header{
+        padding: 25px;
+    }
+    nav{      display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;}
+        
+    .banner-contant{
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        border-radius: 16px;
+
+.head-1{
+    color: #131318;
+font-family: Mulish;
+font-size: 21.543px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.banner-div1{
+   /* display: flex;
+width: 287px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin: 104px;*/
+flex-direction: column;
+}
+
+    }
+}
+.sec-h2{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sec-1{
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 577px;
+padding-left: 40px;
+}
+.bang-bang {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 10px;
+    display: inline-block;
+}
+.gg{display: flex;
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin-left: 40px;
+}
+.btn-2d{width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: #FF5400;
+cursor: pointer;
+}
